@@ -14,29 +14,30 @@ Este módulo tem a função de executar a trajetória proveniente do módulo Pla
 O módulo de Percepção é responsável por reconhecer objetos e mandar para o módulo cartográfico e planejador. Se usarmos o SLAM com visão, vamos ter que identificar os pontos neste módulo também e fazer o acompanhamento deles. 
 
 #### TODO list
-### 1° etapa
-- [ ] Acionar os servos com a Jetson Nano.
+### 1° etapa (2 semanas) 06/11?
+- [ ] Acionar os motores dc com a Jetson Nano.
 - [ ] Calcular a distância de objetos com o sensor ultrasônico.
 - [ ] Montar um ciruito onde o Krak terá que buscar por tarefas e a realizar quando encontrar. 
+- [ ] Coletar imagens com a camera direto na Jetson Nano. 
 
 ### 2° etapa
-- [ ] Andar em linha reta.
+- [ ] Andar em linha reta. 08/11?
 - [ ] Identificar o movimento do Krakudo através de enconders ou outra forma.
 - [ ] Dar comandos em centímetros para o Krakudo andar em linha reta com precisão (translação). 
 - [ ] Coletar imagens dos objetos do circuito com o próprios Krakudo, e treinar o modelo de visão computacional para identificar objetos. 
 
-### 3° etapa
+### 3° etapa 19/11?
 - [ ] Identificar graficamente em um mundo global o movimento do Krak com o auxílio de algum simulador (MATLAB).
 - [ ] Dar comandos em graus para o Krak rotacionar com precição (rotação). 
 - [ ] Calcular e executar trajetorias fazendo curvas.
 - [ ] Executar movimentos em linha reta, fazendo curva, ré, etc.
 
-### 4° etapa
+### 4° etapa 26/11?
 - [ ] Usar o Krakudo para identificar um objeto, posiciona-lo centralizado ao sensor ultrasônico e calcular a distância do objeto.
 - [ ] Usar a informação do objeto detectado e da distância coletada para montar um mapa global do objeto e do Krakudo.
 - [ ] Realizar a parte reativa do Krakudo, desviar de objetos e voltar à trajetória. Com o auxílio do sensor de distância. 
 
-### 5° etapa
+### 5° etapa 03/12?
 - [ ] Fazer uma máquina de estado com os movimentos necessários para a realização de cada tarefa individualmente. 
 - [ ] Juntar todas as máquinas de estados em uma única máquina de estado para planejar as missões e execuções do Krak. 
 - [ ] #TESTARTUDOJUNTO
