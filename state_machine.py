@@ -107,4 +107,3 @@ with sm:
 
 # Executando a máquina de estados
 outcome = sm.execute()
-Neste exemplo, o estado Explorar é iniciado primeiro e pode transitar para os estados Tarefa1 ou Tarefa2, dependendo da condição. Os estados Tarefa1 e Tarefa2 podem transitar de volta para o estado Explorar quando completos.
